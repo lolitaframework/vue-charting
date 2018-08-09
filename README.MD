@@ -4,6 +4,10 @@
 
 VueJS component for rendering the [TradingView Chart Widget](https://www.tradingview.com/widget/advanced-chart/) with custom data feed.
 
+## What is Charting Library
+
+Charting Library is a standalone solution for displaying charts. This free, downloadable library is hosted on your servers and is connected to your data feed to be used in your website or app. [Learn more and download](https://www.tradingview.com/HTML5-stock-forex-bitcoin-charting-library/).
+
 ## Install
 `yarn add vue-charting`
 or
@@ -33,7 +37,8 @@ export default {
   data() {
     return {
       options: {
-        datafeed: Datafeed
+        datafeed: Datafeed,
+        library_path: '/charting_library/'
       }
     };
   },
