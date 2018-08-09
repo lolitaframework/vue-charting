@@ -36,7 +36,7 @@
         );
       },
       scriptUrl: function scriptUrl() {
-        return location.href + this.preparedOptions.library_path + 'charting_library.min.js';
+        return location.origin + this.preparedOptions.library_path + 'charting_library.min.js';
       },
     },
     props: {

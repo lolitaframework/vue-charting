@@ -30,7 +30,7 @@ var component = {render: function(){var _vm=this;var _h=_vm.$createElement;var _
       );
     },
     scriptUrl: function scriptUrl() {
-      return location.href + this.preparedOptions.library_path + 'charting_library.min.js';
+      return location.origin + this.preparedOptions.library_path + 'charting_library.min.js';
     },
   },
   props: {
