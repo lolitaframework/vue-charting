@@ -1,5 +1,5 @@
 <template>
-  <div :id="preparedOptions.container_id" :style="{ height:  height + 'px' }"></div>
+  <div :id="preparedOptions.container_id" :style="{ height:  height }"></div>
 </template>
 
 <script>
@@ -36,8 +36,7 @@ export default {
   props: {
     options: Object,
     height: {
-      default: 600,
-      type: Number,
+      default: '600px',
     }
   },
   methods: {

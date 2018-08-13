@@ -4,7 +4,7 @@
 
 
 var SCRIPT_ID = 'charting-widget-script';
-var component = {render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{style:({ height:  _vm.height + 'px' }),attrs:{"id":_vm.preparedOptions.container_id}})},staticRenderFns: [],
+var component = {render: function(){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{style:({ height:  _vm.height }),attrs:{"id":_vm.preparedOptions.container_id}})},staticRenderFns: [],
   name: 'VueCharting',
   computed: {
     preparedOptions: function preparedOptions() {
@@ -36,8 +36,7 @@ var component = {render: function(){var _vm=this;var _h=_vm.$createElement;var _
   props: {
     options: Object,
     height: {
-      default: 600,
-      type: Number,
+      default: '600px',
     }
   },
   methods: {

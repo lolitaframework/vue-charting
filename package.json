@@ -1,6 +1,6 @@
 {
   "name": "vue-charting",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Vue component for showing trading view chart with custom DataFeed",
   "author": "Eugen Guriev <gurievcreative@gmail.com>",
   "main": "dist/vue-charting.umd.js",
